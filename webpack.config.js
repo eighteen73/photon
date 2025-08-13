@@ -49,9 +49,9 @@ function getBlockStylesEntryPoints() {
 }
 
 /**
- * Pulsars default config.
+ * Photons default config.
  */
-const pulsarConfig = {
+const photonConfig = {
   module: {
     rules: [
       {
@@ -227,6 +227,6 @@ const config = mergeWithRules({
       },
     },
   },
-})(modifiedWordpressConfig, pulsarConfig);
+})(modifiedWordpressConfig, photonConfig);
 
 module.exports = config;

@@ -7,7 +7,7 @@
 
 namespace Photon;
 
-use Pulsar\Tools\Config;
+use Quasar\Tools\Config;
 
 /**
  * Mini container.  This allows us to set up single instances of our objects
